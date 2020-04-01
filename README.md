@@ -1,5 +1,6 @@
 # ezSQL
-ezSQL_mysqli Simple 2.17
+Fork of ezSQL_mysqli in simple way
+
 Fork of ezSQL mysqli by Justin Vincent simplified in one file.
 
 include_once "ezSQL_mysqli.php"; 
