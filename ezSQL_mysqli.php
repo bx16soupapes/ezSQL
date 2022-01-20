@@ -1,5 +1,7 @@
 <?php
 
+
+
 	/**********************************************************************
 	*  Author: Justin Vincent (jv@vip.ie)
 	*  Web...: http://justinvincent.com
@@ -58,7 +60,7 @@
 		*  Constructor
 		*/
 
-		function ezSQLcore()
+		function __construct()
 		{
 		}
 
@@ -624,7 +626,7 @@
 
 
 	/**********************************************************************
-	*  Author: Juergen Bouché (jbouche@nurfuerspam.de)
+	*  Author: Juergen Bouchï¿½ (jbouche@nurfuerspam.de)
 	*  Web...: http://www.juergenbouche.de
 	*  Name..: ezSQL_mysqli
 	*  Desc..: mySQLi component (part of ezSQL database abstraction library)
@@ -669,7 +671,7 @@
 		*  same time as initialising the ezSQL_mysqli class
 		*/
 
-		function ezSQL_mysqli($dbuser='', $dbpassword='', $dbname='', $dbhost='localhost', $encoding='')
+		function __construct($dbuser='', $dbpassword='', $dbname='', $dbhost='localhost', $encoding='')
 		{
 			$this->dbuser = $dbuser;
 			$this->dbpassword = $dbpassword;
